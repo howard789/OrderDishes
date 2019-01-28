@@ -18,14 +18,61 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OrderDishes.cpp">
-      <Filter>Source files</Filter>
-    </ClCompile>
     <None Include="OrderDishes-Debug.vgdbsettings">
       <Filter>VisualGDB settings</Filter>
     </None>
     <None Include="OrderDishes-Release.vgdbsettings">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegUtil.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticResult.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="TDate.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegUtil.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticResult.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

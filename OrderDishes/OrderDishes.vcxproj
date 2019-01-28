@@ -51,12 +51,27 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MyTime.h" />
+    <ClInclude Include="RegUtil.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StatisticResult.h" />
+    <ClInclude Include="StringUtils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
-    <ClCompile Include="OrderDishes.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MyTime.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="RegUtil.cpp" />
+    <ClCompile Include="StatisticResult.cpp" />
+    <ClCompile Include="StringUtils.cpp" />
+    <ClCompile Include="TDate.cpp" />
     <None Include="OrderDishes-Debug.vgdbsettings" />
     <None Include="OrderDishes-Release.vgdbsettings" />
   </ItemGroup>
